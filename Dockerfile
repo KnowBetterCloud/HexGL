@@ -1,4 +1,4 @@
-from python:latest
+FROM python:latest
 
 WORKDIR /var/www/html
 COPY * /var/www/html/
