@@ -75,6 +75,7 @@ Unless specified in the file, HexGL's code and resources are now licensed under 
         chromium-browser http://localhost:8000/index.html
 
 As this is the ONLY pod running on my host, I can run: 
+
        podman stop $(podman ps | grep -v ^CONT | awk '{ print $1 }')
 
 
