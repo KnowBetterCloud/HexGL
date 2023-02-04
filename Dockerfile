@@ -1,4 +1,5 @@
-FROM python:latest
+FROM python:3.9-slim-buster
+#FROM python:latest
 
 LABEL description="HexGL Container Image"
 LABEL version="1.0"
