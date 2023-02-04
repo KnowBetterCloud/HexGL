@@ -38,18 +38,6 @@ spec:
 At some point you will be able to browse to (depending on the route you enabled):
 https://hexgl.linuxrevolution.com/
 
-## Original Content Header
-HexGL
-=========
-
-Source code of [HexGL](http://hexgl.bkcore.com), the futuristic HTML5 racing game by [Thibaut Despoulain](http://bkcore.com)
-
-## Branches
-  * **[Master](https://github.com/BKcore/HexGL)** - Public release (stable).
-
-## License
-
-Unless specified in the file, HexGL's code and resources are now licensed under the *MIT License*.
 
 -- NOTE: I had to make some updates to the original instructions, as I do not run stuff as root (even on my workstation) and you cannot bind to a priv port (under 1024) as a non-root user
 
@@ -88,3 +76,17 @@ This was from the BKcore Developer
 The development of HexGL is in a hiatus for now until I find some time and interest to work on it again.
 That said, feel free to post issues, patches, or anything to make the game better and I'll gladly review and merge them.
 ```
+
+## Original Content Header
+HexGL
+=========
+
+Source code of [HexGL](http://hexgl.bkcore.com), the futuristic HTML5 racing game by [Thibaut Despoulain](http://bkcore.com)
+
+## Branches
+  * **[Master](https://github.com/BKcore/HexGL)** - Public release (stable).
+
+## License
+
+Unless specified in the file, HexGL's code and resources are now licensed under the *MIT License*.
+
