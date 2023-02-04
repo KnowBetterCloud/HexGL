@@ -54,22 +54,11 @@ https://hexgl.linuxrevolution.com/
 
 ## Run locally as a container
 
-        yum -y install chromium-browser
-        cd ~/
-        git clone git://github.com/BKcore/HexGL.git
-        cd HexGL
-        podman build -t my-hexgl .
-        podman run --name hexgl localhost/my-hexgl
-        chromium-browser http://localhost:8000/index.html
+I create a [Container from Code](https://github.com/KnowBetterCloud/Container_from_Code) Repo explaining the process (I use) to create a container from/with this code.
 
-As this is the ONLY pod running on my host, I can run: 
-
-       podman stop $(podman ps | grep -v ^CONT | awk '{ print $1 }')
-
-
-To use full size textures, swap the two textures/ and textures.full/ directories.
 
 ## Note
+To use full size textures, swap the two textures/ and textures.full/ directories.
 
 This was from the BKcore Developer
 ```
